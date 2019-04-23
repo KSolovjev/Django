@@ -1,0 +1,160 @@
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+/*Header*/
+.header{
+	height: 100px;
+}
+.logo{
+	width: 90px;
+	height: 80px;
+	font-size: 11px;
+	font-style: oblique;
+	color: green;
+	float: left;
+	margin: 5px 15px;
+}
+.menu{
+	float: right;
+	margin: 10px 20px;
+	border: 2px solid darkgreen;
+}
+.menu li{
+	list-style-type: none;
+	font-style: oblique;
+	font-size: 16px;
+	display: inline-block;
+	width: 100px;
+	text-align: justify;	
+}
+.menu li a{
+	color: darkgreen;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #990066;
+	text-decoration: none;
+}
+.menu, .footer{
+	background-color: #f2fddc;
+}
+/*.tabmenu{
+	/*border: 1px solid #000;
+	width: 600px;
+	height: 20px;
+	border-spacing: 10px;
+	border-collapse: collapse;
+	margin-left: 120px;
+}
+.tabmenu td{
+	border: 0px solid black;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-style: oblique;
+	font-size: 16px;
+}
+.tabmenu td a:hover{
+	color: #990066;
+	text-decoration: none;
+}
+.tabmenu td a{
+	color: black;
+	text-decoration: none;
+}*/
+/*Content*/
+body{
+	background-color: #f8f8f8;
+}
+.content{
+
+}
+h3{
+	color: black;
+	background-color: #eaeaea;
+	font-size: 18px;
+	font-weight: 400;
+	clear: both;
+}
+h4{
+	color: black;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	font-weight: bold;
+}
+.short_descr{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+	overflow: hidden;
+	margin-left: 230px;
+}
+.long_descr{
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: justify;
+}
+.short_descr:first-letter,.long_descr:first-letter{
+	font-size: 20px;
+	color: #990066;
+}
+.p5998{
+	float: left;
+}
+.p6335{
+	overflow: hidden;
+	margin-left: 150px;
+}
+.product_img{
+	outline: 4px solid #990066;
+	float: left;
+	margin-bottom: 20px;
+}
+.product_img:hover{
+	outline: none;
+}
+.button_buy{
+	margin-left: 220px;
+}
+.button_buy:hover{
+	color: #990066;
+	outline: 4px solid #990066;
+}
+/*.specific{
+	color: black;
+	font-size: 14px;
+	font-style: oblique;
+	line-height: 16px;
+	list-style-type: square;
+	/*list-style-image: url(img/video30.jpg);*/
+}
+.tabspecific{
+	color: black;
+	font-size: 14px;
+	font-style: oblique;
+	clear: both;
+}
+input[placeholder],textarea[placeholder]{
+	color: #990066;
+	font: Verdana 12px;
+	width: 160px;
+	text-transform: capitalize;
+}
+input:focus,textarea:focus{
+	color: red;
+	background-color: gray;
+}
+.email:first-letter{
+	font-size: 20px;
+	color: brown;
+}
+/*Footer*/
+.footer{
+	height: 50px;
+	text-align: right;
+	padding: 10px 100px;
+}
