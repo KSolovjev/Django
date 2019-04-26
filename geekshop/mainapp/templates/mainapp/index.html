@@ -1,0 +1,21 @@
+{% extends 'mainapp/base.html'%}
+{% load static %}
+
+{% block title %}
+	<title>General page</title>
+{% endblock %}
+
+{% block content %}
+	{% include 'mainapp/includes/inc_menu.html' %}
+	<h1 id="root"></h1>
+	<h1 class="title">General</h1>
+	<div>Hello {{ name|title }}!</div>
+	<div>{% now 'Y' %}</div>
+	{% for item in array %}
+		<h1>{{ item }}</h1>
+	{% endfor %}
+{% endblock %}
+
+{% block js %}
+	<script scr="{% static 'js/script.js'%}"></script>
+{% endblock %}

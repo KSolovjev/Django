@@ -1,0 +1,27 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+<body>
+<ul class="menu">
+    <li><a href="/" class="active">домой</a></li>
+    <li><a href="/products/">продукты</a></li>
+    <li><a href="/contacts/">контакты</a></li>
+</ul>
+<h1>Contacts</h1>
+</body>
+</html>-->
+{% extends 'mainapp/base.html'%}
+
+{% block title %}
+	<title>Contacts</title>
+{% endblock %}
+
+{% block content %}
+	{% include 'mainapp/includes/inc_menu.html' %}
+	<h1>Contacts</h1>
+	<div>Hello {{ name|title }}!</div>
+	<div>{% now 'Y' %}</div>
+{% endblock %}
